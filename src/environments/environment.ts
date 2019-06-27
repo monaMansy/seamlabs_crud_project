@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig : {
+    apiKey: "AIzaSyDeXKlNdAaY0spNuJcb1--Fu_AzLwatdwk",
+    authDomain: "seamlabs.firebaseapp.com",
+    databaseURL: "https://seamlabs.firebaseio.com",
+    projectId: "seamlabs",
+    storageBucket: "",
+    messagingSenderId: "635319333665",
+    appId: "1:635319333665:web:e1f6470572b6bdf8"
+  }
 };
 
 /*
